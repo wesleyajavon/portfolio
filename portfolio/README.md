@@ -1,12 +1,44 @@
-# React + Vite
+# 💼 Wesley Ajavon's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website built with **React** and **Tailwind CSS**. This site showcases my web development projects, skills, and ways to contact me. It’s fully responsive, fast, and designed with a modern aesthetic.
 
-Currently, two official plugins are available:
+🌐 **Live Site:** [https://portfolio-wesleyajavon.vercel.app](https://portfolio-wesleyajavon.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- Smooth scrolling navigation
+- Hero section with CTA and social links
+- About section with tech stack icons
+- Projects section with live demos and code links
+- Contact section with email
+- Fully responsive and mobile-friendly
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- React
+- Tailwind CSS
+- JavaScript (ES6+)
+- Vite (or Create React App, depending on setup)
+- Vercel (for deployment)
+
+## 📂 Folder Structure (Simplified)
+
+src/
+├── components/
+│ ├── Navbar.jsx
+│ ├── Hero.jsx
+│ ├── About.jsx
+│ ├── Projects.jsx
+│ ├── Contact.jsx
+├── App.jsx
+├── index.css
+
+## 🚀 Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/wesleyajavon/portfolio.git
+cd portfolio
+npm install
+npm run dev
