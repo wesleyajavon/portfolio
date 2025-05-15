@@ -4,14 +4,14 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 export default function Hero() {
   return (
-    <section id="hero" className="text-center py-20 bg-gray-100">
-      <h2 className="text-4xl font-bold mb-2">Hey, I'm Your Name</h2>
+    <section id="hero" className="text-center py-20 bg-gray-500">
+      <h2 className="text-4xl font-bold mb-2">Hey, I'm Wesley</h2>
       <p className="text-xl mb-4">Frontend Developer</p>
       <div className="flex justify-center gap-4 text-2xl mb-6">
         <a href="https://github.com/wesleyajavon" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com/in/wesleyajavon" target="_blank" rel="noreferrer">
+        <a href="https://linkedin.com/in/wesleyajv" target="_blank" rel="noreferrer">
           <FaLinkedin />
         </a>
       </div>
