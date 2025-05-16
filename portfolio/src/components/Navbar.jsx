@@ -12,7 +12,6 @@ export default function Navbar() {
                 transition={{ duration: 1.5, delay: 0.2 }}
                 className="container px-4 py-0 flex justify-between"
             >
-                <h2 className="text-4xl font-bold mb-2">Wesley Ajavon 😄</h2>
                 <ul className="flex gap-6 text-gray-600 items-center">
                     <li><a href="#hero" className="hover:text-black">Home</a></li>
                     <li><a href="#about" className="hover:text-black">About</a></li>
