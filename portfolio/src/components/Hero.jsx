@@ -5,8 +5,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa';
 export default function Hero() {
   return (
     <section id="hero" className="text-center py-20 bg-gray-500">
-      <h2 className="text-4xl font-bold mb-2">Hey, I'm Wesley</h2>
-      <p className="text-xl mb-4">Frontend Developer</p>
+      <h2 className="text-4xl font-bold mb-2">Hey, I'm Wesley 👋🏾</h2>
+      <p className="text-xl mb-4">Frontend Developer 💻</p>
       <div className="flex justify-center gap-4 text-2xl mb-6">
         <a href="https://github.com/wesleyajavon" target="_blank" rel="noreferrer">
           <FaGithub />
@@ -16,7 +16,7 @@ export default function Hero() {
         </a>
       </div>
       <a href="#projects" className="px-6 py-2 bg-black text-white rounded hover:bg-gray-800">
-        View Projects
+        View Projects 💡
       </a>
     </section>
   );

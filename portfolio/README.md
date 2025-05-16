@@ -21,17 +21,7 @@ Welcome to my personal portfolio website built with **React** and **Tailwind CSS
 - Vite (or Create React App, depending on setup)
 - Vercel (for deployment)
 
-## 📂 Folder Structure (Simplified)
 
-src/
-├── components/
-│ ├── Navbar.jsx
-│ ├── Hero.jsx
-│ ├── About.jsx
-│ ├── Projects.jsx
-│ ├── Contact.jsx
-├── App.jsx
-├── index.css
 
 ## 🚀 Run Locally
 
