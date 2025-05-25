@@ -40,7 +40,15 @@ const projects = [
         demo: "https://chef-claude-react.vercel.app/",
         code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
     },
-
+    {
+        id: 6,
+        title: "Task manager",
+        description: "To-do list",
+        tech: "React, TypeScript, TailwindCSS, Vite",
+        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        demo: "https://task-manager-react-six.vercel.app/",
+        code: "https://github.com/wesleyajavon/task-manager-react",
+    },
 ];
 
 const container = {
