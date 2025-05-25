@@ -17,8 +17,8 @@ export default function Contact() {
                 <p className="mb-6 text-gray-600">Get in touch via email or social media!</p>
 
                 <div className="flex justify-center gap-4 text-2xl mb-6">
-                    <a href="mailto:wesley.ajavon2203@hotmail.com" className="text-lg text-blue-600 hover:underline">
-                        wesley.ajavon2203@hotmail.com
+                    <a href="mailto:wesleyajavon2203@hotmail.com" className="text-lg text-blue-600 hover:underline">
+                        wesleyajavon2203@hotmail.com
                     </a>
                     <a href="https://github.com/wesleyajavon" target="_blank" rel="noreferrer">
                         <FaGithub />
