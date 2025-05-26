@@ -43,7 +43,7 @@ const projects = [
     {
         id: 6,
         title: "Task manager",
-        description: "To-do list",
+        description: "📝To-do list",
         tech: "React, TypeScript, TailwindCSS, Vite",
         image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
         demo: "https://task-manager-react-six.vercel.app/",
