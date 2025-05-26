@@ -23,6 +23,23 @@ const projects = [
         code: "https://github.com/wesleyajavon/tenzies-react/tree/main/tenzies",
     },
     {
+        id: 6,
+        title: "Task manager",
+        description: "📝To-do list",
+        tech: "React, TypeScript, TailwindCSS, Vite",
+        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        demo: "https://task-manager-react-six.vercel.app/",
+        code: "https://github.com/wesleyajavon/task-manager-react",
+    },{
+        id: 7,
+        title: "Blog",
+        description: "A simple RESTful Blog API built with **Node.js** and **Express**, designed to handle blog post management with full CRUD operations. This project demonstrates backend fundamentals such as routing, middleware, and data handling—ideal for beginners or as a starting point for full-stack development.",
+        tech: "Node.js, Express.js, Sqlite, JWT authentication",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        demo: "https://blog-nodejs-t006.onrender.com/",
+        code: "https://github.com/wesleyajavon/blog-nodejs",
+    },
+    {
         id: 3,
         title: "Meme Generator",
         description: "This is a fun and interactive Meme Generator built with React 🧑🏾‍💻. It allows users to generate random meme images and overlay custom top and bottom text.",
@@ -40,15 +57,7 @@ const projects = [
         demo: "https://chef-claude-react.vercel.app/",
         code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
     },
-    {
-        id: 6,
-        title: "Task manager",
-        description: "📝To-do list",
-        tech: "React, TypeScript, TailwindCSS, Vite",
-        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-        demo: "https://task-manager-react-six.vercel.app/",
-        code: "https://github.com/wesleyajavon/task-manager-react",
-    },
+    
 ];
 
 const container = {
