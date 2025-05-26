@@ -12,25 +12,12 @@ export default function Hero() {
             transition={{ duration: 1.5, delay: 0.8, ease: "easeOut" }}
             className="text-center"
         >
-            <section id="hero" className="text-center py-20 bg-gray-500">
-
-                <h2 className="text-4xl font-bold mb-2">Hey, I'm Wesley 👋🏾</h2>
-                <p className="text-xl mb-4">Full-stack Developer 💻</p>
-
-                <div className="flex justify-center gap-4 text-2xl mb-6">
-                    <a href="https://github.com/wesleyajavon" target="_blank" rel="noreferrer">
-                        <FaGithub />
-                    </a>
-                    <a href="https://linkedin.com/in/wesleyajv" target="_blank" rel="noreferrer">
-                        <FaLinkedin />
-                    </a>
-                </div>
-                <a href="#projects" className="px-6 py-2 bg-black text-white rounded hover:bg-gray-800">
+            <section id="hero" className="py-24 bg-[url('/public/background-Hero.png')] bg-[47%_120%]">
+                <a href="#projects" className="mt-42 ml-7 inline-block px-6 py-2 bg-gray-700 text-white rounded hover:bg-gray-800">
                     View Projects 💡
                 </a>
-
-
             </section>
+
         </motion.div>
 
     );

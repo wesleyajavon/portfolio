@@ -16,7 +16,7 @@ const projects = [
     {
         id: 2,
         title: "Tenzies",
-        description: "🎲A simple Tenzies game built with React as a practice project to reinforce React fundamentals.",
+        description: "🎲 A simple Tenzies game built with React as a practice project to reinforce React fundamentals.",
         tech: "React, JavaScript, HTML, CSS",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
         demo: "https://tenzies-react-nine.vercel.app/",
@@ -33,7 +33,7 @@ const projects = [
     },{
         id: 7,
         title: "Blog",
-        description: "A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations. This project demonstrates backend fundamentals such as routing, middleware, and data handling—ideal for beginners or as a starting point for full-stack development.",
+        description: "💻 A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations.",
         tech: "Node.js, Express.js, Sqlite, JWT authentication",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         demo: "https://blog-nodejs-t006.onrender.com/",
@@ -78,7 +78,7 @@ export default function Projects() {
     return (
         <motion.div transition={{ duration: 3.5, delay: 1.2, ease:"circOut" }} variants={container} initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }}>
 
-            <section id="projects" className="py-20 px-6 bg-gray-600 text-center">
+            <section id="projects" className="py-20 px-6 bg-[url('/public/background-Projects.png')] bg-[0%_550%] text-center">
                 <h2 className="text-3xl font-bold mb-10 text-white">Projects 📝</h2>
 
                 <div className="max-w-6xl mx-auto">

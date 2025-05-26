@@ -12,12 +12,12 @@ export default function Contact() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 4, delay: 7 }}
         >
-            <section id="contact" className="py-20 px-6 bg-white text-center">
-                <h2 className="text-3xl text-black font-bold mb-4">Contact</h2>
-                <p className="mb-6 text-gray-600">Get in touch via email or social media!</p>
+            <section id="contact" className="py-20 px-6 bg-neutral-600 text-center">
+                <h2 className="text-3xl text-white font-bold mb-4">Contact</h2>
+                <p className="mb-6 text-white">Get in touch via email or social media!</p>
 
                 <div className="flex justify-center gap-4 text-2xl mb-6">
-                    <a href="mailto:wesleyajavon2203@hotmail.com" className="text-lg text-blue-600 hover:underline">
+                    <a href="mailto:wesleyajavon2203@hotmail.com" className="text-lg text-neutral-300 hover:underline">
                         wesleyajavon2203@hotmail.com
                     </a>
                     <a href="https://github.com/wesleyajavon" target="_blank" rel="noreferrer">
