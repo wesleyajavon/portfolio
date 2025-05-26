@@ -33,7 +33,7 @@ const projects = [
     },{
         id: 7,
         title: "Blog",
-        description: "A simple RESTful Blog API built with **Node.js** and **Express**, designed to handle blog post management with full CRUD operations. This project demonstrates backend fundamentals such as routing, middleware, and data handling—ideal for beginners or as a starting point for full-stack development.",
+        description: "A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations. This project demonstrates backend fundamentals such as routing, middleware, and data handling—ideal for beginners or as a starting point for full-stack development.",
         tech: "Node.js, Express.js, Sqlite, JWT authentication",
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
         demo: "https://blog-nodejs-t006.onrender.com/",

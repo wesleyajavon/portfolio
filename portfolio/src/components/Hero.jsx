@@ -15,7 +15,7 @@ export default function Hero() {
             <section id="hero" className="text-center py-20 bg-gray-500">
 
                 <h2 className="text-4xl font-bold mb-2">Hey, I'm Wesley 👋🏾</h2>
-                <p className="text-xl mb-4">Frontend Developer 💻</p>
+                <p className="text-xl mb-4">Full-stack Developer 💻</p>
 
                 <div className="flex justify-center gap-4 text-2xl mb-6">
                     <a href="https://github.com/wesleyajavon" target="_blank" rel="noreferrer">

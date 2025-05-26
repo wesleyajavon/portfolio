@@ -19,7 +19,7 @@ export default function About() {
                     />
                     <h2 className="text-3xl font-bold mb-2">About Me</h2>
                     <p className="text-gray-600 leading-relaxed">
-                        I'm Wesley Ajavon — a frontend developer with a Bachelor's degree in Computer Science and currently pursuing a Master's in Business Analytics.
+                        I'm Wesley Ajavon — a full-stack developer with a Bachelor's degree in Computer Science and currently pursuing a Master's in Business Analytics.
                         <br /><br />
                         For the past two years, I took a break from coding to fully commit to my college soccer career — an experience that shaped my discipline, resilience, and teamwork. Now, I’m diving back into tech with renewed focus and curiosity, building interactive and responsive web apps with tools like React, Tailwind CSS, and Framer Motion.
                         <br /><br />
