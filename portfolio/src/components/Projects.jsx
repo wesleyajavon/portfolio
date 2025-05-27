@@ -1,6 +1,7 @@
 // src/components/Projects.jsx
 import { motion } from "framer-motion";
 import ProjectCard from './ProjectCard';
+import { FaProjectDiagram } from "react-icons/fa";
 
 const projects = [
     {
@@ -75,7 +76,12 @@ export default function Projects() {
             transition={{ duration: 3.5, delay: 5 }}
         >
             <section id="projects" className="py-20 px-6 bg-gradient-to-b from-gray-800 to-gray-500 text-center">
-                <h2 className="text-gray-200 text-8xl font-bold mb-10 ">Projects 📝</h2>
+                <h2 className="text-gray-200 text-8xl font-bold mb-10 flex flex-row justify-center items-center">
+                    <FaProjectDiagram className="mr-5" />
+
+                    Projects
+                </h2>
+
 
                 <div className="max-w-6xl mx-auto">
                     <div className="flex flex-wrap gap-8 justify-center ">
