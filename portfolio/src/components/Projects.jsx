@@ -1,5 +1,4 @@
 // src/components/Projects.jsx
-import React from 'react';
 import { motion } from "framer-motion";
 import ProjectCard from './ProjectCard';
 
@@ -60,14 +59,6 @@ const projects = [
 
 ];
 
-const container = {
-    hidden: {},
-    show: {
-        transition: {
-            staggerChildren: 0.2,
-        },
-    },
-};
 
 const item = {
     hidden: { opacity: 0, y: 20 },

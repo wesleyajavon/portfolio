@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ title, description, image, tech, demo, code }, index) => {
   return (
-     <div key={index} className="bg-gray-800 rounded-lg shadow-md p-4 transition-transform duration-100 ease-in-out hover:scale-110">
+     <div key={index} className="bg-gray-800 rounded-lg shadow-md p-4 transition-transform duration-300 ease-in-out hover:scale-110">
             <img src={image} alt={title} className="rounded mb-4 h-6" />
             <h3 className="text-xl font-semibold">{title}</h3>
             <p className="text-shadow-gray-300">{description}</p>
