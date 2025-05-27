@@ -4,18 +4,18 @@ import { motion } from "framer-motion";
 export default function Navbar() {
     return (
 
-        <nav className="flex justify-between items-center py-4 px-8 bg-neutral-950 bg-[47%_50%] shadow-md sticky top-0 z-50">
+        <nav className="flex items-center py-4 px-8 bg-neutral-950 shadow-md sticky top-0 z-50">
 
             <motion.div
                 initial={{ y: -60, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 1.5, delay: 0.2 }}
-                className="container px-4 py-0 flex justify-between"
+                className="container px-4 py-0 flex justify-center w-full"
             >
-                <ul className="flex gap-6 text-white items-center">
+                <ul className="flex gap-6 text-slate-300 items-center font-mono">
                     <li><a href="#hero" className="hover:text-black">Home</a></li>
-                    <li><a href="#projects" className="hover:text-black">Projects</a></li>
                     <li><a href="#about" className="hover:text-black">About</a></li>
+                    <li><a href="#projects" className="hover:text-black">Projects</a></li>
                     <li><a href="#contact" className="hover:text-black">Contact</a></li>
                 </ul>
             </motion.div>

@@ -12,7 +12,7 @@ export default function Contact() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 4, delay: 7 }}
         >
-            <section id="contact" className="py-20 px-6 bg-neutral-600 text-center">
+            <section id="contact" className="py-20 px-6 bg-gradient-to-t from-gray-800 to-gray-500 text-center">
                 <h2 className="text-3xl text-white font-bold mb-4">Contact</h2>
                 <p className="mb-6 text-white">Get in touch via email or social media!</p>
 

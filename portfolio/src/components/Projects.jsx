@@ -7,7 +7,7 @@ const projects = [
     {
         id: 1,
         title: "Assembly Endgame",
-        description: "🎮 It’s a modern take on the classic Hangman game — but more than a game",
+        description: "🎮 A modern twist on the classic Hangman game, built from scratch using React.",
         tech: "React, JavaScript (ES6+), CSS Modules or Styled Components, Fetch API",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
         demo: "https://assembly-react-endgame.vercel.app/",
@@ -30,7 +30,7 @@ const projects = [
         image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
         demo: "https://task-manager-react-six.vercel.app/",
         code: "https://github.com/wesleyajavon/task-manager-react",
-    },{
+    }, {
         id: 7,
         title: "Blog",
         description: "💻 A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations.",
@@ -57,7 +57,7 @@ const projects = [
         demo: "https://chef-claude-react.vercel.app/",
         code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
     },
-    
+
 ];
 
 const container = {
@@ -76,13 +76,18 @@ const item = {
 
 export default function Projects() {
     return (
-        <motion.div transition={{ duration: 3.5, delay: 1.2, ease:"circOut" }} variants={container} initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }}>
 
-            <section id="projects" className="py-20 px-6 bg-[url('/public/background-Projects.png')] bg-[0%_550%] text-center">
-                <h2 className="text-3xl font-bold mb-10 text-white">Projects 📝</h2>
+
+        <motion.nav
+            initial={{ y: -60, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 3.5, delay: 5 }}
+        >
+            <section id="projects" className="py-20 px-6 bg-gradient-to-b from-gray-800 to-gray-500 text-center">
+                <h2 className="text-gray-200 text-8xl font-bold mb-10 ">Projects 📝</h2>
 
                 <div className="max-w-6xl mx-auto">
-                    <div className="flex flex-wrap gap-8 justify-center">
+                    <div className="flex flex-wrap gap-8 justify-center ">
                         {projects.map((project) => (
                             <motion.div
                                 key={project.id}
@@ -97,7 +102,9 @@ export default function Projects() {
                 </div>
             </section>
 
-        </motion.div>
+        </motion.nav>
+
+
 
     );
 }
