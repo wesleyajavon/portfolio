@@ -4,6 +4,15 @@ import ProjectCard from './ProjectCard';
 import { FaProjectDiagram } from "react-icons/fa";
 
 const projects = [
+        {
+        id: 8,
+        title: "Task manager V2",
+        description: "📝 Full-stack version of the Task Manager project. Tasks are not saved locally anymore...  Now, the backend is handling all CRUD operations through a connection to MongoDB.",
+        tech: "React, Node.js, Express.js, MongoDB, TypeScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+        demo: "https://task-manager-react-v2.vercel.app/",
+        code: "https://github.com/wesleyajavon/task-manager-react-v2",
+    },
     {
         id: 6,
         title: "Task manager",
@@ -13,15 +22,6 @@ const projects = [
         demo: "https://task-manager-react-six.vercel.app/",
         code: "https://github.com/wesleyajavon/task-manager-react",
     }, 
-    {
-        id: 8,
-        title: "Task manager V3",
-        description: "📝 Full-stack version of the Task Manager project. Tasks are not saved locally anymore...  Now, the backend is handling all CRUD operations through a connection to MongoDB.",
-        tech: "React, Node.js, Express.js, MongoDB, TypeScript",
-        image: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
-        demo: "https://task-manager-react-git-version-2-7b3718-wesley-ajavons-projects.vercel.app/",
-        code: "https://github.com/wesleyajavon/task-manager-react/tree/version-2-backend",
-    },
     {
         id: 7,
         title: "Blog",
