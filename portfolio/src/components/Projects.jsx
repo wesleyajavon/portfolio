@@ -5,6 +5,33 @@ import { FaProjectDiagram } from "react-icons/fa";
 
 const projects = [
     {
+        id: 6,
+        title: "Task manager",
+        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage",
+        tech: "React, TypeScript, TailwindCSS, LocalStorage",
+        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        demo: "https://task-manager-react-six.vercel.app/",
+        code: "https://github.com/wesleyajavon/task-manager-react",
+    }, 
+    {
+        id: 8,
+        title: "Task manager V3",
+        description: "📝 Full-stack version of the Task Manager project. Tasks are not saved locally anymore...  Now, the backend is handling all CRUD operations through a connection to MongoDB.",
+        tech: "React, Node.js, Express.js, MongoDB, TypeScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+        demo: "https://task-manager-react-git-version-2-7b3718-wesley-ajavons-projects.vercel.app/",
+        code: "https://github.com/wesleyajavon/task-manager-react/tree/version-2-backend",
+    },
+    {
+        id: 7,
+        title: "Blog",
+        description: "💻 A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations.",
+        tech: "Node.js, Express.js, Sqlite, JWT authentication",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        demo: "https://blog-nodejs-t006.onrender.com/",
+        code: "https://github.com/wesleyajavon/blog-nodejs",
+    },
+    {
         id: 1,
         title: "Assembly Endgame",
         description: "🎮 A modern twist on the classic Hangman game, built from scratch using React.",
@@ -21,23 +48,6 @@ const projects = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
         demo: "https://tenzies-react-nine.vercel.app/",
         code: "https://github.com/wesleyajavon/tenzies-react/tree/main/tenzies",
-    },
-    {
-        id: 6,
-        title: "Task manager",
-        description: "📝To-do list",
-        tech: "React, TypeScript, TailwindCSS, Vite",
-        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-        demo: "https://task-manager-react-six.vercel.app/",
-        code: "https://github.com/wesleyajavon/task-manager-react",
-    }, {
-        id: 7,
-        title: "Blog",
-        description: "💻 A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations.",
-        tech: "Node.js, Express.js, Sqlite, JWT authentication",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        demo: "https://blog-nodejs-t006.onrender.com/",
-        code: "https://github.com/wesleyajavon/blog-nodejs",
     },
     {
         id: 3,
