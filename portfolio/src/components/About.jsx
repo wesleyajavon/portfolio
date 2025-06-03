@@ -22,9 +22,10 @@ export default function About() {
         <motion.div transition={{ duration: 3.5, delay: 1.2, ease: "circOut" }} variants={container} initial={{ opacity: 0, y: -50 }} animate={{ opacity: 1, y: 0 }}>
 
 
-            <section id="about" className="py-20 px-6 bg-gradient-to-t from-gray-800 to-gray-500  text-left ">
-                <div className="max-w-3xl mx-auto flex flex-col text-left">
-                    <div className="flex justify-center mb-4">
+            <section id="about" className="w-full px-0 bg-gradient-to-t from-gray-800 to-gray-500  ">
+
+                <div className=" mx-auto flex flex-col text-left">
+                    <div className="flex justify-center mb-4 mt-20">
                         <img
                             src="/me.jpg"
                             alt="Wesley Ajavon"
@@ -32,18 +33,18 @@ export default function About() {
                         />
                     </div>
 
-                    <p className="text-white leading-relaxed font-mono text-left">
+                    <p className="text-white leading-relaxed font-mono text-left ml-80">
                         Hi, my name is
                     </p>
-                    <h1 className="text-gray-300 text-3xl font-bold mb-2 leading-relaxed text-left mt-4">
+                    <h1 className="text-gray-300 text-3xl font-bold mb-2 leading-relaxed text-left mt-4 ml-80">
                         Wesley Ajavon.
                     </h1>
 
-                    <h1 className="text-gray-400 text-3xl font-bold mb-2 leading-relaxed text-left mt-4">
+                    <h1 className="text-gray-400 text-3xl font-bold mb-2 leading-relaxed text-left mt-4 ml-80">
                         Full-Stack Developer.
                     </h1>
 
-                    <p className="text-neutral-400 leading-relaxed  mt-4">
+                    <p className="text-neutral-400 leading-relaxed  mt-4 ml-80 mr-80">
                         After graduating from the University of Luxembourg with a Bachelor in Computer Sciences, I took a break from coding to fully commit to my college soccer career and pursuing a Master in Business Analytics— an experience that shaped my discipline, resilience, and teamwork. Now, I’m diving back into tech with renewed focus and curiosity, building interactive and responsive web apps with tools like React, Node.js, and other Javascript frameworks.
                         <br /><br />
                         Outside of tech and athletics, I’m also a pianist — I love exploring the creative intersection between structure and expression, both in music and in code.
@@ -52,7 +53,7 @@ export default function About() {
 
                     </p>
                 </div>
-                <div className="mt-6 flex justify-center gap-4">
+                <div className="mt-20 flex justify-center gap-4">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-10 h-10" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-10 h-10" />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="Tailwind" className="w-10 h-10" />
