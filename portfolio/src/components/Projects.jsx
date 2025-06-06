@@ -6,9 +6,9 @@ import { FaProjectDiagram } from "react-icons/fa";
 const projects = [
         {
         id: 8,
-        title: "Task manager V2",
-        description: "📝 Full-stack version of the Task Manager project. Tasks are not saved locally anymore...  Now, the backend is handling all CRUD operations through a connection to MongoDB.",
-        tech: "React, Node.js, Express.js, MongoDB, TypeScript",
+        title: "Task manager V2.1",
+        description: "📝 Full-Stack Task Manager App — Now powered by a robust backend connected to MongoDB for all task-related CRUD operations. I've also integrated JWT-based authentication, enabling secure user registration, login, and protected routes for a seamless and secure user experience.",
+        tech: "React, Node.js, Express.js, MongoDB, TypeScript, JWT authentication",
         image: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
         demo: "https://task-manager-react-v2.vercel.app/",
         code: "https://github.com/wesleyajavon/task-manager-react-v2",
@@ -16,7 +16,7 @@ const projects = [
     {
         id: 6,
         title: "Task manager",
-        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage",
+        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage. First version of my project.",
         tech: "React, TypeScript, TailwindCSS, LocalStorage",
         image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
         demo: "https://task-manager-react-six.vercel.app/",
