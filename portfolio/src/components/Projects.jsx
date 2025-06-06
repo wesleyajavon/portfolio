@@ -16,7 +16,7 @@ const projects = [
     {
         id: 5,
         title: "Chef Claude",
-        description: "👨🏾‍🍳 Chef Claude is a fun and interactive React app that generates random recipes for you to try. It fetches data from an external API and displays details like the recipe name, ingredients, and an image — all wrapped in a clean, user-friendly interface",
+        description: "👨🏾‍🍳 Chef Claude is a fun and interactive React app that generates random recipes for you to try. It fetches data from an external API and displays details like the recipe name and ingredients — all wrapped in a clean, user-friendly interface",
         tech: "React, Claude Anthropic AI, API",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
         demo: "https://chef-claude-react.vercel.app/",
