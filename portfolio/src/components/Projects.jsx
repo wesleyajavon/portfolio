@@ -14,13 +14,13 @@ const projects = [
         code: "https://github.com/wesleyajavon/task-manager-react-v2",
     },
     {
-        id: 6,
-        title: "Task manager",
-        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage. First version of my project.",
-        tech: "React, TypeScript, TailwindCSS, LocalStorage",
-        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-        demo: "https://task-manager-react-six.vercel.app/",
-        code: "https://github.com/wesleyajavon/task-manager-react",
+        id: 5,
+        title: "Chef Claude",
+        description: "👨🏾‍🍳 Chef Claude is a fun and interactive React app that generates random recipes for you to try. It fetches data from an external API and displays details like the recipe name, ingredients, and an image — all wrapped in a clean, user-friendly interface",
+        tech: "React, Claude Anthropic AI, API",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+        demo: "https://chef-claude-react.vercel.app/",
+        code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
     }, 
     {
         id: 7,
@@ -59,14 +59,14 @@ const projects = [
         code: "https://github.com/wesleyajavon/meme-generator-react/tree/main/meme-generator",
     },
     {
-        id: 5,
-        title: "Chef Claude",
-        description: "👨🏾‍🍳 Chef Claude is a fun and interactive React app that generates random recipes for you to try. It fetches data from an external API and displays details like the recipe name, ingredients, and an image — all wrapped in a clean, user-friendly interface",
-        tech: "React, Claude Anthropic AI, API",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-        demo: "https://chef-claude-react.vercel.app/",
-        code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
-    },
+        id: 6,
+        title: "Task manager",
+        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage. 1st version of my project.",
+        tech: "React, TypeScript, TailwindCSS, LocalStorage",
+        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+        demo: "https://task-manager-react-six.vercel.app/",
+        code: "https://github.com/wesleyajavon/task-manager-react",
+    }
 
 ];
 
