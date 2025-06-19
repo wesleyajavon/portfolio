@@ -49,7 +49,7 @@ export default function About() {
                         <br /><br />
                         Outside of tech and athletics, I’m also a pianist — I love exploring the creative intersection between structure and expression, both in music and in code.
                         <br /><br />
-                        I’m always eager to learn, collaborate, and grow — and this portfolio reflects that journey.
+                        I’m always eager to learn, collaborate, and grow — and this portfolio reflects that journey towards a MERN tech stack career.
 
                     </p>
                 </div>
