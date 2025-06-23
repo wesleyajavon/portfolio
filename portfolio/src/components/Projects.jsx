@@ -5,6 +5,15 @@ import { FaProjectDiagram } from "react-icons/fa";
 
 const projects = [
         {
+        id: 9,
+        title: "Finly (Next.JS tutorial)",
+        description: "💶A modern financial dashboard built with Next.js 14, TypeScript, Tailwind CSS, and shadcn/ui. The app features a clean, responsive UI to visualize financial data, including charts, revenue breakdowns, and recent transactions.",
+        tech: "Next.JS, React, TypeScript, Postgres",
+        image: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
+        demo: "https://finly-nextjs.vercel.app/",
+        code: "https://github.com/wesleyajavon/finly-nextjs",
+    },
+    {
         id: 8,
         title: "Task manager V2.1",
         description: "📝 Full-Stack Task Manager App — Now powered by a robust backend connected to MongoDB for all task-related CRUD operations. I've also integrated JWT-based authentication, enabling secure user registration, login, and protected routes for a seamless and secure user experience.",
@@ -21,7 +30,7 @@ const projects = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
         demo: "https://chef-claude-react.vercel.app/",
         code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
-    }, 
+    },
     {
         id: 7,
         title: "Blog",

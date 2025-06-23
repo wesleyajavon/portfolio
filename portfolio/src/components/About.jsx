@@ -45,7 +45,7 @@ export default function About() {
                     </h1>
 
                     <p className="text-neutral-400 leading-relaxed  mt-4 ml-80 mr-80">
-                        After graduating from the University of Luxembourg with a Bachelor in Computer Sciences, I took a break from coding to fully commit to my college soccer career and pursuing a Master in Business Analytics— an experience that shaped my discipline, resilience, and teamwork. Now, I’m diving back into tech with renewed focus and curiosity, building interactive and responsive web apps with tools like React, Node.js, and other Javascript frameworks.
+                        After graduating from the University of Luxembourg with a Bachelor in Computer Sciences, I took a break from coding to fully commit to my college soccer career and pursuing a Master in Business Analytics— an experience that shaped my discipline, resilience, and teamwork. Now, I’m diving back into tech with renewed focus and curiosity, building interactive and responsive full-stack web apps using tools like Next.js, React, Node.js, and other frameworks.
                         <br /><br />
                         Outside of tech and athletics, I’m also a pianist — I love exploring the creative intersection between structure and expression, both in music and in code.
                         <br /><br />
@@ -54,6 +54,7 @@ export default function About() {
                     </p>
                 </div>
                 <div className="mt-20 flex justify-center gap-4">
+                    <img src="https://www.svgrepo.com/show/354113/nextjs-icon.svg" alt="React" className="w-10 h-10" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" className="w-10 h-10" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" className="w-10 h-10" />
                     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png" alt="Tailwind" className="w-10 h-10" />
