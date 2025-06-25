@@ -9,7 +9,7 @@ export default function Navbar() {
 
     return (
         <nav className="bg-neutral-950 shadow-md sticky top-0 z-50">
-            <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+            <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
                 {/* Logo */}
                 <div className="flex items-center gap-2 text-slate-300 font-bold text-lg">
                     <FaReact className="text-blue-300" />
