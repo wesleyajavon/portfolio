@@ -70,7 +70,7 @@ const projects = [
     {
         id: 6,
         title: "Task manager",
-        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage. 1st version of my project.",
+        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage. 1st project's version.",
         tech: "React, TypeScript, TailwindCSS, LocalStorage",
         image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
         demo: "https://task-manager-react-six.vercel.app/",
@@ -79,48 +79,42 @@ const projects = [
 
 ];
 
-
 const item = {
-    hidden: { opacity: 0, y: 20 },
-    show: { opacity: 1, y: 0 },
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0 },
 };
 
 export default function Projects() {
-    return (
+  return (
+    <motion.nav
+      initial={{ y: -60, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 3.5, delay: 5 }}
+    >
+      <section
+        id="projects"
+        className="py-20 px-4 sm:px-6 bg-gradient-to-b from-gray-800 to-gray-500 text-center"
+      >
+        <h2 className="text-gray-200 text-4xl sm:text-5xl lg:text-6xl font-bold mb-10 flex justify-center items-center gap-4">
+          <FaProjectDiagram className="text-blue-300" />
+          Projects
+        </h2>
 
-
-        <motion.nav
-            initial={{ y: -60, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 3.5, delay: 5 }}
-        >
-            <section id="projects" className="py-20 px-6 bg-gradient-to-b from-gray-800 to-gray-500 text-center">
-                <h2 className="text-gray-200 text-8xl font-bold mb-10 flex flex-row justify-center items-center">
-                    <FaProjectDiagram className="mr-5" />
-
-                    Projects
-                </h2>
-
-
-                <div className="max-w-6xl mx-auto">
-                    <div className="flex flex-wrap gap-8 justify-center ">
-                        {projects.map((project) => (
-                            <motion.div
-                                key={project.id}
-                                variants={item}
-                                transition={{ duration: 0.6 }}
-                                className="w-full md:w-[45%] lg:w-[40%]"
-                            >
-                                <ProjectCard {...project} />
-                            </motion.div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-        </motion.nav>
-
-
-
-    );
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 place-items-center">
+            {projects.map((project) => (
+              <motion.div
+                key={project.id}
+                variants={item}
+                transition={{ duration: 0.6 }}
+                className="w-full"
+              >
+                <ProjectCard {...project} />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+    </motion.nav>
+  );
 }
