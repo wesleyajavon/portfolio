@@ -7,7 +7,7 @@ const projects = [
         {
         id: 9,
         title: "Finly (Next.JS tutorial)",
-        description: "💶A modern financial dashboard built with Next.js 14, TypeScript, Tailwind CSS, and shadcn/ui. The app features a clean, responsive UI to visualize financial data, including charts, revenue breakdowns, and recent transactions.",
+        description: "💶A modern financial dashboard. The app features a clean, responsive UI to visualize financial data, including charts, revenue breakdowns, and recent transactions. Credentials: user@nextmail.com - 123456",
         tech: "Next.JS, React, TypeScript, Postgres",
         image: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
         demo: "https://finly-nextjs.vercel.app/",
