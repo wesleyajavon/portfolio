@@ -12,7 +12,7 @@ export default function Hero() {
         >
             <section 
               id="hero" 
-              className="w-full mt-20 py-30 bg-[url('/public/background-Hero.png')] bg-[30%_100%] bg-no-repeat bg-cover"
+              className="w-full py-50 bg-[url('/public/background-Hero.png')] bg-[30%_100%] bg-no-repeat bg-cover"
             >
 
             </section>
