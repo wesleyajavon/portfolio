@@ -3,86 +3,96 @@ import { motion } from "framer-motion";
 import ProjectCard from './ProjectCard';
 import { FaProjectDiagram } from "react-icons/fa";
 
+
 const projects = [
-        {
-        id: 9,
-        title: "Finly (Next.JS tutorial)",
-        description: "💶A modern financial dashboard. The app features a clean, responsive UI to visualize financial data, including charts, revenue breakdowns, and recent transactions. Credentials: user@nextmail.com - 123456",
-        tech: "Next.JS, React, TypeScript, Postgres",
-        image: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
-        demo: "https://finly-nextjs.vercel.app/",
-        code: "https://github.com/wesleyajavon/finly-nextjs",
-    },
-    {
-        id: 8,
-        title: "Task manager V2.1",
-        description: "📝 Full-Stack Task Manager App — Now powered by a robust backend connected to MongoDB for all task-related CRUD operations. I've also integrated JWT-based authentication, enabling secure user registration, login, and protected routes for a seamless and secure user experience.",
-        tech: "React, Node.js, Express.js, MongoDB, TypeScript, JWT authentication",
-        image: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
-        demo: "https://task-manager-react-v2.vercel.app/",
-        code: "https://github.com/wesleyajavon/task-manager-react-v2",
-    },
-    {
-        id: 5,
-        title: "Chef Claude",
-        description: "👨🏾‍🍳 Chef Claude is a fun and interactive React app that generates random recipes for you to try. It fetches data from an external API and displays details like the recipe name and ingredients — all wrapped in a clean, user-friendly interface",
-        tech: "React, Claude Anthropic AI, API",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-        demo: "https://chef-claude-react.vercel.app/",
-        code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
-    },
-    {
-        id: 7,
-        title: "Blog",
-        description: "💻 A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations.",
-        tech: "Node.js, Express.js, Sqlite, JWT authentication",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-        demo: "https://blog-nodejs-t006.onrender.com/",
-        code: "https://github.com/wesleyajavon/blog-nodejs",
-    },
-    {
-        id: 1,
-        title: "Assembly Endgame",
-        description: "🎮 A modern twist on the classic Hangman game, built from scratch using React.",
-        tech: "React, JavaScript (ES6+), CSS Modules or Styled Components, Fetch API",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-        demo: "https://assembly-react-endgame.vercel.app/",
-        code: "https://github.com/wesleyajavon/assembly-react-endgame/tree/main/assembly-endgame",
-    },
-    {
-        id: 2,
-        title: "Tenzies",
-        description: "🎲 A simple Tenzies game built with React as a practice project to reinforce React fundamentals.",
-        tech: "React, JavaScript, HTML, CSS",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-        demo: "https://tenzies-react-nine.vercel.app/",
-        code: "https://github.com/wesleyajavon/tenzies-react/tree/main/tenzies",
-    },
-    {
-        id: 3,
-        title: "Meme Generator",
-        description: "This is a fun and interactive Meme Generator built with React 🧑🏾‍💻. It allows users to generate random meme images and overlay custom top and bottom text.",
-        tech: "React, JavaScript, HTML, CSS",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
-        demo: "https://meme-generator-react-ten.vercel.app/",
-        code: "https://github.com/wesleyajavon/meme-generator-react/tree/main/meme-generator",
-    },
-    {
-        id: 6,
-        title: "Task manager",
-        description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage. 1st project's version.",
-        tech: "React, TypeScript, TailwindCSS, LocalStorage",
-        image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
-        demo: "https://task-manager-react-six.vercel.app/",
-        code: "https://github.com/wesleyajavon/task-manager-react",
-    }
+  {
+    id: 9,
+    title: "Finly (Next.JS tutorial)",
+    description: "💶A modern financial dashboard. The app features a clean, responsive UI to visualize financial data, including charts, revenue breakdowns, and recent transactions. Credentials: user@nextmail.com - 123456",
+    tech: "Next.JS, React, TypeScript, Postgres",
+    image: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
+    demo: "https://finly-nextjs.vercel.app/",
+    code: "https://github.com/wesleyajavon/finly-nextjs",
+  },
+  {
+    id: 8,
+    title: "Task manager V2.1",
+    description: "📝 Full-Stack Task Manager App — Now powered by a robust backend connected to MongoDB for all task-related CRUD operations. I've also integrated JWT-based authentication, enabling secure user registration, login, and protected routes for a seamless and secure user experience.",
+    tech: "React, Node.js, Express.js, MongoDB, TypeScript, JWT authentication",
+    image: "https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg",
+    demo: "https://task-manager-react-v2.vercel.app/",
+    code: "https://github.com/wesleyajavon/task-manager-react-v2",
+  },
+  {
+    id: 5,
+    title: "Chef Claude",
+    description: "👨🏾‍🍳 Chef Claude is a fun and interactive React app that generates random recipes for you to try. It fetches data from an external API and displays details like the recipe name and ingredients — all wrapped in a clean, user-friendly interface",
+    tech: "React, Claude Anthropic AI, API",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+    demo: "https://chef-claude-react.vercel.app/",
+    code: "https://github.com/wesleyajavon/chef-claude-react/tree/main/chef_claude",
+  },
+  {
+    id: 7,
+    title: "Blog",
+    description: "💻 A simple RESTful Blog API built with Node.js and Express, designed to handle blog post management with full CRUD operations.",
+    tech: "Node.js, Express.js, Sqlite, JWT authentication",
+    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    demo: "https://blog-nodejs-t006.onrender.com/",
+    code: "https://github.com/wesleyajavon/blog-nodejs",
+  },
+  {
+    id: 1,
+    title: "Assembly Endgame",
+    description: "🎮 A modern twist on the classic Hangman game, built from scratch using React.",
+    tech: "React, JavaScript (ES6+), CSS Modules or Styled Components, Fetch API",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+    demo: "https://assembly-react-endgame.vercel.app/",
+    code: "https://github.com/wesleyajavon/assembly-react-endgame/tree/main/assembly-endgame",
+  },
+  {
+    id: 2,
+    title: "Tenzies",
+    description: "🎲 A simple Tenzies game built with React as a practice project to reinforce React fundamentals.",
+    tech: "React, JavaScript, HTML, CSS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+    demo: "https://tenzies-react-nine.vercel.app/",
+    code: "https://github.com/wesleyajavon/tenzies-react/tree/main/tenzies",
+  },
+  {
+    id: 3,
+    title: "Meme Generator",
+    description: "This is a fun and interactive Meme Generator built with React 🧑🏾‍💻. It allows users to generate random meme images and overlay custom top and bottom text.",
+    tech: "React, JavaScript, HTML, CSS",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1150px-React-icon.svg.png",
+    demo: "https://meme-generator-react-ten.vercel.app/",
+    code: "https://github.com/wesleyajavon/meme-generator-react/tree/main/meme-generator",
+  },
+  {
+    id: 6,
+    title: "Task manager",
+    description: "📝To-do list. Tasks are saved locally on the browser with LocalStorage. 1st project's version.",
+    tech: "React, TypeScript, TailwindCSS, LocalStorage",
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+    demo: "https://task-manager-react-six.vercel.app/",
+    code: "https://github.com/wesleyajavon/task-manager-react",
+  }
 
 ];
 
-const item = {
-  hidden: { opacity: 0, y: 20 },
-  show: { opacity: 1, y: 0 },
-};
+const itemVariants = (i) => ({
+  hidden: { opacity: 0, y: 40 },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      type: "spring",
+      stiffness: 100,
+      damping: 14,
+      delay: i * 0.1,
+    },
+  },
+});
 
 export default function Projects() {
   return (
@@ -90,23 +100,27 @@ export default function Projects() {
       initial={{ y: -60, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 3.5, delay: 5 }}
+      className="w-full bg-gradient-to-b from-gray-800 to-gray-500"
     >
       <section
         id="projects"
-        className="py-20 px-4 sm:px-6 bg-gradient-to-b from-gray-800 to-gray-500 text-center"
+        className="py-20 text-center"
       >
         <h2 className="text-gray-200 text-4xl sm:text-5xl lg:text-6xl font-bold mb-10 flex justify-center items-center gap-4">
           <FaProjectDiagram className="text-blue-300" />
           Projects
         </h2>
 
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 place-items-center">
-            {projects.map((project) => (
+            {projects.map((project, index) => (
               <motion.div
                 key={project.id}
-                variants={item}
-                transition={{ duration: 0.6 }}
+                custom={index}
+                initial="hidden"
+                whileInView="show"
+                viewport={{ once: true, amount: 0.3 }}
+                variants={itemVariants(index)}
                 className="w-full"
               >
                 <ProjectCard {...project} />
