@@ -5,6 +5,15 @@ import { FaProjectDiagram } from "react-icons/fa";
 
 
 const projects = [
+    {
+    id: 10,
+    title: "YouCode",
+    description: "💻 YouCode is a modern Learning Management System (LMS) built from scratch using Next.js. Designed for both educators and students, it provides a streamlined platform for managing and consuming educational content.",
+    tech: "Next.JS, NextAuth, TypeScript, Postgresql",
+    image: "https://www.svgrepo.com/show/354113/nextjs-icon.svg",
+    demo: "https://youcode-nextjs.vercel.app/",
+    code: "https://github.com/wesleyajavon/youcode-nextjs",
+  },
   {
     id: 9,
     title: "Finly (Next.JS tutorial)",
