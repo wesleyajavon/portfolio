@@ -1,27 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
+import FadeInOnScroll from "./utils/FadeInOnScroll";
 
 const ProjectCard = ({ title, description, image, tech, demo, code }) => {
   return (
-    <motion.div
-      whileHover={{
-        rotateZ: [-1, 1, -1, 1, 0],
-        scale: 1.05,
-        transition: {
-          rotateZ: {
-            duration: 0.6,
-            repeat: 0,
-            ease: "easeInOut",
-          },
-          scale: {
-            type: "spring",
-            stiffness: 300,
-            damping: 15,
-          },
-        },
-      }}
-      className="w-full bg-transparent"
-    >
+    <FadeInOnScroll className="hidden md:block text-center">  
       <div className="backdrop-blur-xl bg-white/10 dark:bg-white/5 border border-white/10 dark:border-white/20 rounded-2xl shadow-lg p-5 sm:p-6 max-w-md mx-auto">
         {image && (
           <img
@@ -59,7 +42,7 @@ const ProjectCard = ({ title, description, image, tech, demo, code }) => {
           )}
         </div>
       </div>
-    </motion.div>
+    </FadeInOnScroll>
   );
 };
 

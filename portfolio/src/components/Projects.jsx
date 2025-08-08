@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import ProjectCard from './ProjectCard';
 import { FaProjectDiagram } from "react-icons/fa";
+import FadeInOnScroll from "./utils/FadeInOnScroll";
 
 
 const projects = [
@@ -105,15 +106,10 @@ const itemVariants = (i) => ({
 
 export default function Projects() {
   return (
-    <motion.nav
-      initial={{ y: -60, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
-      transition={{ duration: 3.5, delay: 5 }}
-      className="w-full bg-gradient-to-b from-gray-800 to-gray-500"
-    >
+    <FadeInOnScroll >
       <section
         id="projects"
-        className="py-20 text-center"
+        className="py-20 text-center bg-gradient-to-b from-gray-800 to-gray-500"
       >
         <h2 className="text-gray-200 text-4xl sm:text-5xl lg:text-6xl font-bold mb-10 flex justify-center items-center gap-4">
           <FaProjectDiagram className="text-blue-300" />
@@ -138,6 +134,6 @@ export default function Projects() {
           </div>
         </div>
       </section>
-    </motion.nav>
+    </FadeInOnScroll>
   );
 }

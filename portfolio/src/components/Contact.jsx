@@ -2,14 +2,11 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { motion } from "framer-motion";
+import FadeInOnScroll from "./utils/FadeInOnScroll";
 
 export default function Contact() {
     return (
-        <motion.nav
-            initial={{ y: -60, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 4, delay: 7 }}
-        >
+        <FadeInOnScroll className="text-center">
             <section
                 id="contact"
                 className="w-full bg-gradient-to-t from-gray-800 to-gray-500 py-16"
@@ -53,6 +50,6 @@ export default function Contact() {
                     </div>
                 </div>
             </section>
-        </motion.nav>
+        </FadeInOnScroll>
     );
 }

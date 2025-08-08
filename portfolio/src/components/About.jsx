@@ -1,6 +1,5 @@
 // src/components/About.jsx
-import React from 'react';
-import { motion } from "framer-motion";
+import FadeInOnScroll from "./utils/FadeInOnScroll";
 
 const container = {
   hidden: {},
@@ -18,12 +17,8 @@ const item = {
 
 export default function About() {
   return (
-    <motion.div
-      transition={{ duration: 3.5, delay: 1.2, ease: "circOut" }}
-      variants={container}
-      initial={{ opacity: 0, y: -50 }}
-      animate={{ opacity: 1, y: 0 }}
-    >
+    <FadeInOnScroll>
+
       <section id="about" className="w-full bg-gradient-to-t from-gray-800 to-gray-500 py-12">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-16">
           <div className="flex flex-col text-center sm:text-left">
@@ -67,6 +62,6 @@ export default function About() {
           </div>
         </div>
       </section>
-    </motion.div>
+    </FadeInOnScroll>
   );
 }

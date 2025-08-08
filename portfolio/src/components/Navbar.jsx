@@ -1,15 +1,37 @@
 'use client';
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { FaReact } from 'react-icons/fa';
 import { HiMenu, HiX } from "react-icons/hi";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [opacity, setOpacity] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // L'opacité augmente progressivement jusqu'à 1 quand on descend de 100px
+      const scrollY = window.scrollY;
+      const newOpacity = Math.min(scrollY / 100, 1);
+      setOpacity(newOpacity);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    // Initialisation au chargement
+    handleScroll();
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
 
   return (
-    <nav className="fixed top-1 left-0 right-0 z-50 flex justify-center">
+    <nav
+      className="fixed top-1 left-0 right-0 z-50 flex justify-center"
+      style={{
+        opacity: opacity,
+        transition: "opacity 0.5s ease"
+      }}
+    >
       <div className="backdrop-blur-md bg-white/10 dark:bg-black/10 border border-white/10 dark:border-white/20 shadow-md rounded-full w-[90%] max-w-3xl px-6 py-2 flex items-center justify-between text-center">
         
         {/* Logo */}
